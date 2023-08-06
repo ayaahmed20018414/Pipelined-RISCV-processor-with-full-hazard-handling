@@ -1,4 +1,4 @@
-# Pipelined-RISCV-processor-with-full-hazard-handling
+# a 32 bit Pipelined-RISCV-processor-with-full-hazard-handling
 In this project, I implemented a 32-bit pipelined microarchitecture RISC-V processor based on Harvard Architecture with full hazard handling. In the pipelined microarchitecture, I design it by subdividing the single-cycle processor into five pipeline stages. Thus, five instructions can execute simultaneously, one in each stage. In other words, instruction fetch, instruction decode, execute, write back, and program counter update occurs within a single clock cycle.Because each
 stage has only one-fifth of the entire logic, the clock frequency is approximately five times faster. So, ideally, the latency of each instruction is unchanged, but the throughput is five times better.
 
